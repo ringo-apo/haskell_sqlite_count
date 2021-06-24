@@ -4,7 +4,7 @@
 
 ```
 sqlite3 test.db
-CREATE TABLE memos (id INTEGER PRIMARY KEY AUTOINCREMENT, comment)
+CREATE TABLE memos (id INTEGER PRIMARY KEY AUTOINCREMENT, comment);
 insert into memos (comment) values ('Hello');
 insert into memos (comment) values ('Konitiwa');
 select * from memos;
